@@ -1,0 +1,184 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>Microsoft 365 Work Stack - Shubham Patil</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+    <style>
+        #copyright {
+            color: black;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .project-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 15px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: center;
+        }
+
+        .project-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .project-img {
+            max-width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .project-title {
+            font-size: 1.25rem;
+            margin-top: 10px;
+        }
+
+        .project-desc {
+            font-size: 1rem;
+            margin-top: 5px;
+        }
+
+        .project-link {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 16px;
+            background-color: #0078d4; /* Microsoft blue */
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .project-link:hover {
+            background-color: #005a9e;
+        }
+    </style>
+</head>
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+
+        <!-- Header -->
+        <header id="header">
+        </header>
+
+        <!-- Nav -->
+        <nav id="nav">
+            <ul class="links">
+                <li><a href="index.html">About Me</a></li>
+				<li><a href="m365-workstack.html">M365 Work-Stack</a></li>
+				<li><a href="work-stack.html">Work-Stack</a></li>
+                <li><a href="skills-certificates.html">Skills and Certificates</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <ul class="icons">
+                <li><a href="https://www.linkedin.com/in/shubham-patil-444631100/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                <li><a href="https://github.com/Shubhz-git" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content for M365 Work-Stack -->
+        <div id="main" class="container">
+            <h2 class="my-4">Microsoft 365 Work Stack</h2>
+            <p>"Showcasing my Microsoft 365 projects that utilize the complete M365 platform—covering tenant setup, user and license management, Entra ID identity and SSO, security and governance controls, Teams and SharePoint, Exchange Online, Power Platform, Microsoft Graph API, and PowerShell automation—to solve real-world business challenges."</p>
+
+            <!-- Project Grid -->
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+				<!-- Project 1 -->
+                    <div class="project-card">
+                        <img src="images/m365-project-1.png" alt="Project 1" class="project-img">
+                        <h3 class="project-title">Enterprise Leave Management & Approval Automation (Power Platform)</h3>
+                        <p class="project-desc">Designed and implemented an automated leave management solution using Power Automate, SharePoint Online, and Microsoft Teams to standardise leave requests, approvals, and notifications, reducing manual processing and improving process visibility.</p>
+                        <a href="https://github.com/Shubhz-git/Power-Automate-Leave-Workflow" class="project-link" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+				<!-- Project 2 -->
+                <div class="col">
+                    <div class="project-card">
+                        <img src="images/m365-project-2.png" alt="Project 2" class="project-img">
+                        <h3 class="project-title">Microsoft Teams Workforce Status Reporting & Automation Solution</h3>
+                        <p class="project-desc">Developed a Microsoft Teams bot using Power Virtual Agents that collects daily status updates from employees and posts summarized reports automatically in Teams channels.</p>
+                        <a href="https://github.com/Shubhz-git/Teams-Daily-Report-Bot" class="project-link" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+				<!-- Project 3 -->
+                <div class="col">
+                    <div class="project-card">
+                        <img src="images/m365-project-3.png" alt="Project 3" class="project-img">
+                        <h3 class="project-title">Enterprise Microsoft 365 Governance & Service Standardisation</h3>
+                        <p class="project-desc">Designed and implemented a tenant-wide Microsoft 365 governance and lifecycle framework covering Teams, SharePoint, OneDrive, and Power Platform with standardised policies, access controls, and automated lifecycle management.</p>
+                        <a href="https://github.com/Shubhz-git/M365-Governance-Framework" class="project-link" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+				<!-- Project 4 -->
+    <div class="col">
+        <div class="project-card">
+            <img src="images/m365-project-4.png" alt="Project 4" class="project-img">
+            <h3 class="project-title">Secure Identity & Access Management with Entra ID</h3>
+            <p class="project-desc">Architected an Entra ID-based identity and access solution with Conditional Access, MFA enforcement, guest access governance, and SSO integration for cloud and SaaS applications.</p>
+            
+        </div>
+    </div>
+
+    <!-- Project 5 -->
+    <div class="col">
+        <div class="project-card">
+            <img src="images/m365-project-5.png" alt="Project 5" class="project-img">
+            <h3 class="project-title">Microsoft 365 Data Protection & Compliance Enablement</h3>
+            <p class="project-desc">Implemented Microsoft Purview security and compliance controls including sensitivity labels, retention policies, audit logging, and Power Platform DLP to protect organisational data.</p>
+            <a href="https://github.com/Shubhz-git/Microsoft-365-Data-Protection-Compliance-Enablement" class="project-link" target="_blank">View on GitHub</a>
+        </div>
+    </div>
+
+    <!-- Project 6 -->
+    <div class="col">
+        <div class="project-card">
+            <img src="images/m365-project-6.png" alt="Project 6" class="project-img">
+            <h3 class="project-title">PowerShell Automation for Microsoft 365 Administration</h3>
+            <p class="project-desc">Developed PowerShell scripts to automate Microsoft 365 administrative tasks including user management, license assignment, Teams provisioning, and reporting.</p>
+            <a href="https://github.com/Shubhz-git/M365-Incident-Management" class="project-link" target="_blank">View on GitHub</a>
+        </div>
+    </div>
+
+    <!-- Project 8 -->
+    <div class="col">
+        <div class="project-card">
+            <img src="images/m365-project-7.png" alt="Project 8" class="project-img">
+            <h3 class="project-title">Microsoft Teams Telephony & Unified Communications Architecture</h3>
+            <p class="project-desc">Designed and delivered a Microsoft Teams-based unified communications solution including Teams Phone, call queues, auto attendants, and meeting room integration.</p>
+            <a href="https://github.com/Shubhz-git/Meeting-Room-Scheduler" class="project-link" target="_blank">View on GitHub</a>
+        </div>
+    </div>
+</div>
+            </div>
+
+            <!-- Copyright -->
+            <div id="copyright">
+                <ul><li>&copy; Shubham Patil</li><li>Portfolio</li></ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
